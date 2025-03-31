@@ -71,7 +71,7 @@ class Othello:
         white_count = np.sum(self.board == WHITE)
         return black_count, white_count
 
-def play_game():
+def play_game(): #Function runs the game
     game = Othello()
     while not game.is_game_over():
         game.print_board()
